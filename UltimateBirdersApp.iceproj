@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>69b72a19-679b-4cea-ae79-af5153f3da6d</ProjectGuid>
+    <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".abignore" />
+    <Content Include=".abproject" />
+    <Content Include=".debug.abproject" />
+    <Content Include=".release.abproject" />
+    <Content Include="chapterfamily.json" />
+    <Content Include="cordova.android.js" />
+    <Content Include="cordova.ios.js" />
+    <Content Include="cordova.wp8.js" />
+    <Content Include="grid-layout.html" />
+    <Content Include="images\Beautiful-photographs.jpg" />
+    <Content Include="images\Beautiful-photographs2.jpg" />
+    <Content Include="images\Beautiful-photographs3.jpg" />
+    <Content Include="images\Bird-book.jpg" />
+    <Content Include="images\Bird-experts-bg.png" />
+    <Content Include="images\birds\african_hobby0.jpg" />
+    <Content Include="images\birds\african_hoopoe1.jpg" />
+    <Content Include="images\birds\african_penguin0.jpg" />
+    <Content Include="images\birds\antarctic_petrel0.jpg" />
+    <Content Include="images\birds\antarctic_prion0.jpg" />
+    <Content Include="images\birds\atlantic_petrel0.jpg" />
+    <Content Include="images\birds\atlantic_yellow_nosed_albatross0.jpg" />
+    <Content Include="images\birds\balearic_shearwater0.jpg" />
+    <Content Include="images\birds\band_rumped_storm_petrel0.jpg" />
+    <Content Include="images\birds\baraus_petrel0.jpg" />
+    <Content Include="images\birds\black_bellied_storm_petrel0.jpg" />
+    <Content Include="images\birds\black_browed_albatross0.jpg" />
+    <Content Include="images\birds\blue_petrel0.jpg" />
+    <Content Include="images\birds\broad_billed_prion0.jpg" />
+    <Content Include="images\birds\bullers_albatross0.jpg" />
+    <Content Include="images\birds\chatham_albatross0.jpg" />
+    <Content Include="images\birds\common_ostrich0.jpg" />
+    <Content Include="images\birds\common_ostrich1.jpg" />
+    <Content Include="images\birds\common_ostrich2.jpg" />
+    <Content Include="images\birds\common_ostrich3.jpg" />
+    <Content Include="images\birds\corys_shearwater0.jpg" />
+    <Content Include="images\birds\european_storm_petrel0.jpg" />
+    <Content Include="images\birds\fairy_prion0.jpg" />
+    <Content Include="images\birds\flesh_footed_shearwater0.jpg" />
+    <Content Include="images\birds\gentoo_penguin0.jpg" />
+    <Content Include="images\birds\great_shearwater0.jpg" />
+    <Content Include="images\birds\great_winged_petrel0.jpg" />
+    <Content Include="images\birds\grey_backed_storm_petrel0.jpg" />
+    <Content Include="images\birds\grey_headed_albatross0.jpg" />
+    <Content Include="images\birds\grey_petrel0.jpg" />
+    <Content Include="images\birds\indian_yellow_nosed_albatross0.jpg" />
+    <Content Include="images\birds\jouanins_petrel0.jpg" />
+    <Content Include="images\birds\kerguelen_petrel0.jpg" />
+    <Content Include="images\birds\king_penguin0.jpg" />
+    <Content Include="images\birds\laysan_albatross0.jpg" />
+    <Content Include="images\birds\leachs_storm_petrel0.jpg" />
+    <Content Include="images\birds\light_mantled_albatross0.jpg" />
+    <Content Include="images\birds\little_penguin0.jpg" />
+    <Content Include="images\birds\little_shearwater0.jpg" />
+    <Content Include="images\birds\macaroni_penguin0.jpg" />
+    <Content Include="images\birds\magellanic_penguin0.jpg" />
+    <Content Include="images\birds\manx_shearwater0.jpg" />
+    <Content Include="images\birds\matsudairas_storm_petrel0.jpg" />
+    <Content Include="images\birds\northern_giant_petrel0.jpg" />
+    <Content Include="images\birds\northern_rockhopper_penguin0.jpg" />
+    <Content Include="images\birds\northern_royal_albatross0.jpg" />
+    <Content Include="images\birds\pintado_petrel0.jpg" />
+    <Content Include="images\birds\salvins_albatross0.jpg" />
+    <Content Include="images\birds\salvins_prion0.jpg" />
+    <Content Include="images\birds\shy_albatross0.jpg" />
+    <Content Include="images\birds\slender_billed_prion0.jpg" />
+    <Content Include="images\birds\soft_plumaged_petrel0.jpg" />
+    <Content Include="images\birds\sooty_albatross0.jpg" />
+    <Content Include="images\birds\sooty_shearwater0.jpg" />
+    <Content Include="images\birds\sooty_shearwater1.jpg" />
+    <Content Include="images\birds\southern_fulmer0.jpg" />
+    <Content Include="images\birds\southern_giant_petrel0.jpg" />
+    <Content Include="images\birds\southern_giant_petrel1.jpg" />
+    <Content Include="images\birds\southern_rockhopper_penguin0.jpg" />
+    <Content Include="images\birds\southern_royal_albatross0.jpg" />
+    <Content Include="images\birds\southern_royal_albatross1.jpg" />
+    <Content Include="images\birds\spectacled_petrel0.jpg" />
+    <Content Include="images\gm.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\land\1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\1.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\11.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\12.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\13.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\14.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\15.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\16.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\17.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\18.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\19.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\2.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\20.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\21.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\22.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\23.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\24.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\25.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\26.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\3.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\4.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\5.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\6.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\7.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\i\photo\8.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\Kingfisher.jpg" />
+    <Content Include="images\landing.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\landinone.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\logo.png" />
+    <Content Include="images\Long-tailed-widowbird.jpg" />
+    <Content Include="images\Peter-Ginn-Geoff-McIlleron.jpg" />
+    <Content Include="images\pg.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\The-unlimited-group.gif" />
+    <Content Include="index.html" />
+    <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
+    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-667h.png" />
+    <Resource Include="App_Resources\iOS\Default-736h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape-667h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape-736h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
+    <Resource Include="App_Resources\iOS\Default.png" />
+    <Resource Include="App_Resources\iOS\Default@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-40.png" />
+    <Resource Include="App_Resources\iOS\icon-40@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-40@3x.png" />
+    <Resource Include="App_Resources\iOS\icon-60.png" />
+    <Resource Include="App_Resources\iOS\icon-60@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-60@3x.png" />
+    <Resource Include="App_Resources\iOS\icon-72.png" />
+    <Resource Include="App_Resources\iOS\icon-72@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-76.png" />
+    <Resource Include="App_Resources\iOS\icon-76@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
+    <Resource Include="App_Resources\iOS\icon.png" />
+    <Resource Include="App_Resources\iOS\icon@2x.png" />
+    <Resource Include="App_Resources\WP8\ApplicationIcon.png" />
+    <Resource Include="App_Resources\WP8\SplashScreenImage.jpg" />
+    <Resource Include="App_Resources\WP8\Assets\BadgeLogo.png" />
+    <Resource Include="App_Resources\WP8\Assets\Logo.png" />
+    <Resource Include="App_Resources\WP8\Assets\SplashScreen.png" />
+    <Resource Include="App_Resources\WP8\Assets\SquareTile150x150.png" />
+    <Resource Include="App_Resources\WP8\Assets\SquareTile71x71.png" />
+    <Resource Include="App_Resources\WP8\Assets\StoreLogo.png" />
+    <Resource Include="App_Resources\WP8\Assets\WideLogo.png" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
+    <Content Include="kendo\js\jquery.min.js" />
+    <Content Include="kendo\js\kendo.mobile.min.js" />
+    <Content Include="kendo\styles\kendo.mobile.all.min.css" />
+    <Content Include="kendo\styles\images\back.png" />
+    <Content Include="kendo\styles\images\kendoui.svg" />
+    <Content Include="kendo\styles\images\kendoui.ttf" />
+    <Content Include="kendo\styles\images\kendoui.woff" />
+    <Content Include="kendo\styles\images\wp8_icons.png" />
+    <Content Include="kendo\styles\images\wp8_inverseicons.png" />
+    <TypeScriptCompile Include="kendo\typescript\jquery.d.ts" />
+    <TypeScriptCompile Include="kendo\typescript\kendo.mobile.d.ts" />
+    <Content Include="scripts\app.js" />
+    <Content Include="scripts\birds.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\chapterfamily.json" />
+    <Content Include="scripts\chapterissue1_4.json" />
+    <Content Include="scripts\freewall.js" />
+    <Content Include="scripts\index.js" />
+    <Content Include="scripts\issuesmain.json" />
+    <Content Include="scripts\jquery-1.10.2.min.js" />
+    <Content Include="scripts\jquery-2.0.2.min.map" />
+    <Content Include="scripts\zepto.min.js" />
+    <Content Include="styles\9k-RPmcnxYEPm8CNFsH2gg.woff" />
+    <Content Include="styles\font-awesome.min.css" />
+    <Content Include="styles\font\fontawesome-webfont.eot" />
+    <Content Include="styles\font\fontawesome-webfont.svg" />
+    <Content Include="styles\font\fontawesome-webfont.ttf" />
+    <Content Include="styles\font\fontawesome-webfont.woff" />
+    <Content Include="styles\font\FontAwesome.otf" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\images\appbuilder.png" />
+    <Content Include="styles\images\appbuilder2x.png" />
+    <Content Include="styles\images\location.png" />
+    <Content Include="styles\images\location2x.png" />
+    <Content Include="styles\images\location_active.png" />
+    <Content Include="styles\images\location_active2x.png" />
+    <Content Include="styles\images\logo.png" />
+    <Content Include="styles\images\logo2x.png" />
+    <Content Include="styles\images\search.png" />
+    <Content Include="styles\images\search2x.png" />
+    <Content Include="styles\images\search_active.png" />
+    <Content Include="styles\images\search_active2x.png" />
+    <Content Include="styles\images\sprite-weather.png" />
+    <Content Include="styles\images\sprite-weather2x.png" />
+    <Content Include="styles\metro-style.css" />
+    <Content Include="styles\pinterest-style.css" />
+    <Content Include="styles\style.css" />
+    <Content Include="views\birdfamily.html" />
+    <Content Include="views\gallery.html" />
+    <Content Include="views\about.html" />
+    <Content Include="views\chapters.html" />
+    <Content Include="views\home.html" />
+    <Content Include="views\birds.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
+    <Folder Include="App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\iOS\" />
+    <Folder Include="App_Resources\WP8\" />
+    <Folder Include="App_Resources\WP8\Assets\" />
+    <Folder Include="App_Resources\WP8\Tiles\" />
+    <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="images\i\" />
+    <Folder Include="images\i\land\" />
+    <Folder Include="images\i\photo\" />
+    <Folder Include="images\birds\" />
+    <Folder Include="kendo\" />
+    <Folder Include="kendo\js\" />
+    <Folder Include="kendo\styles\" />
+    <Folder Include="kendo\styles\images\" />
+    <Folder Include="kendo\typescript\" />
+    <Folder Include="images\" />
+    <Folder Include="Plugins\" />
+    <Folder Include="scripts\" />
+    <Folder Include="styles\" />
+    <Folder Include="styles\images\" />
+    <Folder Include="styles\font\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <Import Project="$(IceniumTargets)Build.targets" />
+  <!--
+    TODO: Uncomment this code if you need to customize the build process.
+    <Target Name="BeforeBuild">
+        <Message Text="TODO: Implement BeforeBuild" Importance="high" />
+    </Target>
+
+    <Target Name="AfterBuild">
+        <Message Text="TODO: Implement AfterBuild" Importance="high" />
+    </Target>
+    -->
+</Project>

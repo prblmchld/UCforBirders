@@ -1,0 +1,17 @@
+}
+ @media all and (orientation:portrait) {  
+        /* Styles for Portrait screen */ 
+    #toggle{
+        display:block;
+    }
+    }  
+    @media all and (orientation:landscape) {  
+        /* Styles for Landscape screen */  
+     #toggle{
+        
+        display:none;
+        width:1080px;
+        height:300px;
+   
+    }
+    }  

@@ -1,0 +1,59 @@
+<script>
+    if(selectedBird == -1){
+        selectedBird = birds[0].ID_Bird;
+    }
+</script>
+
+<div data-role="view" data-title="BirdMaps" data-layout="main" data-model="APP.models.birds" data-reload="true">
+ <a data-role="backbutton" >back</a>
+   <div data-role="header" class="headbg">
+
+        <div data-role="tabstrip" >
+            <!--    <a href="views/birds.html" data-icon="featured">Birds</a> -->
+            <a href="views/BirdInfo.html" data-icon="info">Bird-Info</a>
+            <a href="views/BirdPics.html" data-icon="camera">Pics</a>
+            <a href="views/BirdMaps.html" data-icon="globe">Map</a>
+        </div>
+
+    </div>
+    
+    <div width="100%" height="100%" id="selectedBirdMapContainer">
+    
+    
+    
+    </div>
+        <div id="NoMap" class="span1 ">
+            
+        
+            
+        </div>
+
+    <script>
+
+   
+        
+        
+        var imageControl = $("<img class='maps' src='images/maps/" + selectedBird + ".jpg' />");
+        
+    	
+       $("#selectedBirdMapContainer").append(imageControl); 
+        
+        if ($("#selectedBirdMapContainer").find('imageControl').length == 0) {
+         $("imageControl").remove();
+         $("#NoMap").append("<span>No Map Available</span>")
+}
+        
+       //   $("#selectedBirdMapContainer").append(Maptable);
+
+     //   setTimeout(function () {
+
+      //      var readyState = $("map")[0].readyState;
+
+      //      if (readyState == 0) {
+      //          $("map").remove();
+      //          $(".mapCell").append("<span>No Map Available..</span>")
+          //  }
+
+     //   }, 250);
+    </script>
+</div>    

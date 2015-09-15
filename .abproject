@@ -1,0 +1,57 @@
+{
+  "ProjectName": "UltimateBirdersApp",
+  "ProjectGuid": "69b72a19-679b-4cea-ae79-af5153f3da6d",
+  "projectVersion": 1,
+  "AppIdentifier": "com.excellentapps.ultimatecompanion",
+  "DisplayName": "The Ultimate Companion for Birding",
+  "Author": "floris olivier",
+  "Description": "The Ulitmate Companion for Birders Southern Africa",
+  "BundleVersion": "1.1",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [
+    "audio"
+  ],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.CAPTURE_AUDIO_OUTPUT",
+    "android.permission.MEDIA_CONTENT_CONTROL",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_EXTERNAL_STORAGE"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "False",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{e36ee780-1b3a-4cab-9355-a50bad464c6a}",
+  "WP8ProductID": "{72e1f1f8-fe95-4f45-be78-4d9e0f3dd387}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.UltimateBirdersApp",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.console",
+    "org.apache.cordova.device",
+    "org.apache.cordova.device-orientation",
+    "org.apache.cordova.media",
+    "org.apache.cordova.network-information"
+  ]
+}
